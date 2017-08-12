@@ -1,246 +1,544 @@
-
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en" class=" js csstransitions">
 	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Hold &mdash; 100% Free Fully Responsive HTML5 Bootstrap Template by FREEHTML5.co</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Bootstrap Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!-- Title: Anna's Website -->
+		<title>Anna Leskova</title>
 
-  <!--
-	//////////////////////////////////////////////////////
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="Portfolio, Resume, Website for Anna Leskova.">
+		<meta name="keywords" content="anna, leskova, researcher, developer, hire">
+		<meta name="author" content="Anna Leskova">
 
-	FREE HTML5 TEMPLATE
-	DESIGNED & DEVELOPED by FREEHTML5.CO
+		<!-- Viewport, mobile responsive adaptation -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
+		<!-- Fonts -->
+		<link href="./fonts/css" rel="stylesheet" type="text/css">
+		<link href="./fonts/css(1)" rel="stylesheet" type="text/css">
+		<link href="./fonts/css(2)" rel="stylesheet" type="text/css">
+		<link href="./fonts/css(3)" rel="stylesheet" type="text/css">
 
-	//////////////////////////////////////////////////////
-	 -->
+		<!-- Styles -->
+		<link href="./css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="./css/owl.theme.css" rel="stylesheet">
+		<link href="./css/owl.carousel.css" rel="stylesheet">
+		<link href="./css/magnific-popup.css" rel="stylesheet">
+		<link href="./css/simpletextrotator.css" rel="stylesheet">
+		<link href="./css/font-awesome.min.css" rel="stylesheet" media="screen">
+		<link href="./css/animate.css" rel="stylesheet">
+		<link href="./css/component.css" rel="stylesheet">
+		<link href="./css/style.css" rel="stylesheet" media="screen">
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
-
-	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700italic,700' rel='stylesheet' type='text/css'>
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Flexslider -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-
-	<link rel="stylesheet" id="theme-switch" href="css/style.css">
-
-
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Cookie -->
-	<script src="js/jquery.cookie.js"></script>
-	<script>
-	if ( $.cookie('styleCookie') === 'style-light.css') {
-		$('html, body').css('background', '#eeeeee');
-	} else if ($.cookie('styleCookie') === 'style.css') {
-		$('html, body').css('background', '#222222');
-	}
-
-	</script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-
-	<!-- Viewport Units Buggyfill -->
-	<script src="js/viewport-units-buggyfill.js"></script>
-
-	<!-- Googgle Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
-
-
-	<!-- Main JS  -->
-	<script src="js/main.js"></script>
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="./img/favicon.png">
 	</head>
 
+	<!-- Document Body Start -->
 	<body>
+		<div class="wrapper">
 
-	<!-- Loader -->
-	<div class="fh5co-loader"></div>
-
-	<div id="fh5co-page">
-		<nav id="fh5co-nav" role="navigation">
-			<ul>
-				<li class="animate-box fh5co-active"><a href="index.html" class="transition">Home</a></li>
-				<li class="animate-box"><a href="about.html" class="transition">Bio</a></li>
-			</ul>
-			<a class="style-toggle js-style-toggle" data-style="default" href="#">
-				<span class="fh5co-circle"></span>
-			</a>
-		</nav>
-
-		<header id="fh5co-header" role="banner" class="fh5co-project js-fh5co-waypoint no-border" data-colorbg="#222222" data-next="yes">
-			<div class="container">
-				<div class="fh5co-text-wrap animate-box">
-					<div class="fh5co-intro-text">
-						<h1>I&acute;m a 30 Year Old UI/UX Web Designer based <span>in</span> New York City</h1>
-						<h2>Crafted by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></h2>
-					</div>
+			<!-- Preloader Start and End -->
+			<div id="preloader" style="display: none;">
+				<div id="status" style="display: none;">
+					<div class="status-mes"><h4>Anna Leskova</h4></div>
 				</div>
 			</div>
-			<div class="btn-next animate-box fh5co-learn-more">
-				<a href="#" class="scroll-btn">
-					<span>See my portfolio</span>
-					<i class="icon-chevron-down"></i>
-				</a>
-			</div>
-		</header>
-		<!-- data-colorbg="#8cc53e"  -->
-		<div class="fh5co-project js-fh5co-waypoint" data-bgcolor="" data-next="yes">
-			<div class="container">
-				<div class="fh5co-project-inner row">
-					<div class="fh5co-imgs col-md-8 animate-box">
-						<div class="img-holder-1 animate-box">
-							<img src="images/work_1_large.jpg" alt="Free HTML5 Bootstrap Template">
-						</div>
-						<div class="img-holder-2 animate-box">
-							<img src="images/work_1_small.jpg" alt="Free HTML5 Bootstrap Template">
-						</div>
-					</div>
-					<div class="fh5co-text col-md-4 animate-box">
-						<h2>Guide Landing Page</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						<p><a href="work_1.html" class="btn btn-light btn-outline transition">View Project</a></p>
-					</div>
-				</div>
 
-			</div>
-		</div>
-		<!-- data-colorbg="#FF6138" -->
-		<div class="fh5co-project js-fh5co-waypoint fh5co-reverse" data-colorbg="" data-next="yes">
-			<div class="container">
-				<div class="fh5co-project-inner row">
-					<div class="fh5co-imgs col-md-8 col-md-push-4 animate-box">
-						<div class="img-holder-1 animate-box">
-							<img src="images/work_2_large.jpg" alt="Free HTML5 Bootstrap Template">
-						</div>
-						<div class="img-holder-2 animate-box">
-							<img src="images/work_2_small.jpg" alt="Free HTML5 Bootstrap Template">
-						</div>
-					</div>
-					<div class="fh5co-text col-md-4 col-md-pull-8 animate-box">
-						<h2>Sprint for Portfolio</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						<p><a href="work_1.html" class="btn btn-light btn-outline transition">View Project</a></p>
-					</div>
-				</div>
+			<!-- Navigation Start -->
+			<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+				<div class="container">
 
-			</div>
-		</div>
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="http://aleskova.me/">Anna Leskova</a>
+					</div>
 
-		<!-- data-colorbg="#2d4059" -->
-		<div class="fh5co-project js-fh5co-waypoint" data-colorbg="" data-next="yes">
-			<div class="container">
-				<div class="fh5co-project-inner row">
-					<div class="fh5co-imgs col-md-8 animate-box">
-						<div class="img-holder-1 animate-box">
-							<img src="images/work_3_large.jpg" alt="Free HTML5 Bootstrap Template">
-						</div>
-						<div class="img-holder-2 animate-box">
-							<img src="images/work_3_small.jpg" alt="Free HTML5 Bootstrap Template">
-						</div>
-					</div>
-					<div class="fh5co-text col-md-4 animate-box">
-						<h2>Display for Business Website</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						<p><a href="work_1.html" class="btn btn-light btn-outline transition">View Project</a></p>
-					</div>
-				</div>
-
-			</div>
-		</div>
-		<!-- data-colorbg="#7bc74d" -->
-		<div class="fh5co-project js-fh5co-waypoint fh5co-reverse" data-colorbg="">
-			<div class="container">
-				<div class="fh5co-project-inner row">
-					<div class="fh5co-imgs col-md-8 col-md-push-4 animate-box">
-						<div class="img-holder-1 animate-box">
-							<img src="images/work_4_large.jpg" alt="Free HTML5 Bootstrap Template">
-						</div>
-						<div class="img-holder-2 animate-box">
-							<img src="images/work_4_small.jpg" alt="Free HTML5 Bootstrap Template">
-						</div>
-					</div>
-					<div class="fh5co-text col-md-4 col-md-pull-8 animate-box">
-						<h2>Slant for Creatives</h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						<p><a href="work_1.html" class="btn btn-light btn-outline transition">View Project</a></p>
-					</div>
-				</div>
-
-			</div>
-		</div>
-		<footer id="fh5co-footer" class="js-fh5co-waypoint">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<p><small>&copy; 2016 Hold. All Rights Reserved. <br> Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.com" target="_blank">Unsplash</a> </small> </p>
-						<ul class="fh5co-social">
-							<li>
-								<a href="#"><i class="icon-twitter"></i></a>
-							</li>
-							<li>
-								<a href="#"><i class="icon-facebook"></i></a>
-							</li>
-							<li>
-								<a href="#"><i class="icon-instagram"></i></a>
-							</li>
-							<li>
-								<a href="#"><i class="icon-dribbble"></i></a>
-							</li>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="/#intro">Home</a></li>
+							<li><a href="#profile">Profile</a></li>
+							<!-- <li><a href="http://aleskova.me/photography">Photography</a></li> -->
+							<li><a href="#services">Services</a></li>
+							<li><a href="#resume">Resume</a></li>
+							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</div>
 				</div>
-			</div>
-		</footer>
+			</nav>
 
-	</div>
+			<!-- Section Start: Intro -->
+			<section id="intro" class="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+
+							<div class="hello wow bounceInDown animated" style="visibility: visible; animation-name: bounceInDown;" font color="black">
+								<h1> <font color="black"> Hello, Anna Here! </font> </h1>
+								<h3> <font color="black"> <span class="rotate" style="text-shadow: white 1px 1px 1px;"> Software Engineer. | Mathematician. | UC Berkeley Student.</span></font></h3>
+							</div>
+
+							<a href="#profile">
+								<div class="mouse-icon">
+									<div class="wheel"></div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
 
 
+			<!-- Section Start: Portfolio -->
+			<section id="profile" class="section">
+				<div class="container">
+					<div class="row">
 
+						<div class="col-md-12 headline wow bounceInDown animated" style="visibility: visible; animation-name: bounceInDown;">
+							<h2>Anna Leskova</h2>
+							<p>Software Engineer, Mathematician, and University of California Berkeley Student.</p>
+						</div>
+
+						<div class="col-md-3 col-sm-6 hidden-xs wow bounceInLeft" style="visibility: hidden; animation-name: none;">
+							<img class="avatar" src="./img/llama.jpg" alt="">
+						</div>
+
+						<div class="col-md-3 col-sm-6 wow bounceInUp" style="visibility: hidden; animation-name: none;">
+							<div class="profile-widget">
+								<h3>Skillset</h3>
+
+								<h5>Mathematics</h5>
+								<div class="skill-bar">
+									<div class="skill-rate-on"></div>
+									<div class="skill-rate-on"></div>
+									<div class="skill-rate-on"></div>
+									<div class="skill-rate-on"></div>
+								</div>
+
+								<h5>Java</h5>
+								<div class="skill-bar">
+									<div class="skill-rate-on"></div>
+									<div class="skill-rate-on"></div>
+									<div class="skill-rate-on"></div>
+									<div class="skill-rate-off"></div>
+								</div>
+
+								<h5>Python</h5>
+								<div class="skill-bar">
+									<div class="skill-rate-on"></div>
+									<div class="skill-rate-on"></div>
+									<div class="skill-rate-on"></div>
+									<div class="skill-rate-off"></div>
+								</div>
+								
+								<h5>Research</h5>
+								<div class="skill-bar">
+									<div class="skill-rate-on"></div>
+									<div class="skill-rate-on"></div>
+									<div class="skill-rate-on"></div>
+									<div class="skill-rate-on"></div>
+								</div>
+
+								<h5>Teaching</h5>
+								<div class="skill-bar">
+									<div class="skill-rate-on"></div>
+									<div class="skill-rate-on"></div>
+									<div class="skill-rate-on"></div>
+									<div class="skill-rate-on"></div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-12 wow bounceInRight" style="visibility: hidden; animation-name: none;">
+							<h3>Professional Profile</h3>
+							<p>Hello! I'm an undergraduate at the University of California Berkeley currently pursuing a double major in Computer Science and Pure Mathematics. I love my combination of fields, and I love sharing the beauties of them to all my students. In my free time I enjoy shooting archery, running marathons, and scarfing down twelve pounds of crawfish!</p>
+							<p>My passion is learning, whether it be for theory, language, or social change. In my free time, I volunteer in many STEM programs in the community to promote STEM education to minorities. I am the currently the outreach chair for the Mathematics Undergraduate Students Association at UC Berkeley, and I currently work as the webmaster for UC Berkeley's Masters in Developmental Practice Department.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!-- Section Start: Stats -->
+			<section id="stats" class="callout">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-3 col-sm-12 hidden-xs wow bounceInLeft" style="visibility: hidden; animation-name: none;">
+							<h3>My Life Stats</h3>
+						</div>
+
+						<div class="col-md-3 col-sm-4 wow bounceInDown" style="visibility: hidden; animation-name: none;">
+							<div class="stat">
+								<div class="stat-icon">
+									<h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="3492"></span></h2>
+								</div>
+								<h3>Cups of Tea</h3>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-4 wow bounceInUp" style="visibility: hidden; animation-name: none;">
+							<div class="stat">
+								<div class="stat-icon">
+									<h2><i class="fa fa-code hidden-xs"></i><span class="timer" data-to="15737"></span>+</h2>
+								</div>
+								<h3>Lines of code</h3>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-4 wow bounceInRight" style="visibility: hidden; animation-name: none;">
+							<div class="stat">
+								<div class="stat-icon">
+									<h2><i class="fa fa-child hidden-xs"></i><span class="timer" data-to="230"></span>+</h2>
+								</div>
+								<h3>Delighted Students</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!-- Section Start: Services -->
+			<section id="services" class="section">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-12 headline wow bounceInDown" style="visibility: hidden; animation-name: none;">
+							<h2>What I Can Do</h2>
+							<p>Here's just a glimpse at the services I can provide.</p>
+						</div>
+
+						<div class="col-md-12">
+							<div class="row">
+
+								<!-- Full-Stack Development -->
+								<div class="col-sm-4 wow bounceInLeft" data-wow-delay=".2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+									<div class="service">
+										<div class="icon">
+											<i class="fa fa-code"></i>
+										</div>
+										<h4>Machine Learning</h4>
+										<div class="text">
+											<p> Among research in artificial intelligence, I have created Artificial Neural Network using Keras and Theano to optimize the power of the SLAC National Accelerator Laboratory's free electron laser, and much more!</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- Big Data and Databases -->
+								<div class="col-sm-4 wow bounceInUp" data-wow-delay=".4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
+									<div class="service">
+										<div class="icon">
+											<i class="fa fa-database"></i>
+										</div>
+										<h4>Big Data and Databases</h4>
+										<div class="text">
+											<p> At the Joint Bio-energy Institute I used MySQL to work with a bacterial database. As well I have years of experience in data analysis for bio-medicine through the Computer Science department  at the Louisiana State University Shreveport.</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- Systems Programming -->
+								<div class="col-sm-4 wow bounceInUp" data-wow-delay=".6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
+									<div class="service">
+										<div class="icon">
+											<i class="fa fa-cog"></i>
+										</div>
+										<h4>Data Structure Programming</h4>
+										<div class="text">
+											<p> I have created a relational database management system, as well as a domain specific language similar to SQL from scratch using Java and RegEx. </p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+
+								<!-- Writing and Documentation -->
+								<div class="col-sm-4 wow bounceInLeft" style="visibility: hidden; animation-name: none;">
+									<div class="service">
+										<div class="icon">
+											<i class="fa fa-pencil"></i>
+										</div>
+										<h4>Education</h4>
+										<div class="text">
+											<p> Taught Linear Algebra and Differential Equations, as well I have tutored in a variety of mathematical fields. Currently I am preparing to teach an intro course for Data Scientists at UC Berkeley.</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- Networking and Outreach -->
+								<div class="col-sm-4 wow bounceInUp" data-wow-delay=".4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
+									<div class="service">
+										<div class="icon">
+											<i class="fa fa-users"></i>
+										</div>
+										<h4>Networking and Outreach</h4>
+										<div class="text">
+											<p>I have organized many events including a Women in Science and Engineering conference, Diversity talks, and started a minority lecture series in mathematics.</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- Support -->
+								<div class="col-sm-4 wow bounceInUp" data-wow-delay=".6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
+									<div class="service">
+										<div class="icon">
+											<i class="fa fa-life-ring"></i>
+										</div>
+										<h4>Tutoring Aid</h4>
+										<div class="text">
+											<p>Stuck on a math problem? I would love to help! I love solving all sorts of problems. Simply shoot me an email or contact me in the form below and I'll try to connect with you as soon as possible! </p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!-- Section Start: Buffer -->
+			<section class="callout">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-3 hidden-xs wow bounceInLeft" style="visibility: hidden; animation-name: none;">
+							<h3>My current status</h3>
+						</div>
+
+						<div class="col-md-9 headline nomargin wow bounceInDown" style="visibility: hidden; animation-name: none;">
+							<h3>I am currently looking for a job!</h3>
+							<p>Need a Software Engineer, Mathematician or Researcher? You've come to the right place!</p>
+							<a href="#contact" class="btn btn-default btn-custom-2 callout-btn"><i class="fa fa-paper-plane-o icon-before"></i> Contact Me</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!-- Section Start: Resume -->
+			<section id="resume" class="section">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-12 headline wow bounceInDown" style="visibility: hidden; animation-name: none;">
+							<h2>Resume</h2>
+							<p>A brief overview of my education and experience.</p>
+						</div>
+
+					</div>
+
+					<div class="row resume-items">
+
+						<!-- Education -->
+						<div class="col-md-3 wow bounceInLeft" style="visibility: hidden; animation-name: none;">
+							<h3>Education</h3>
+						</div>
+
+						<!-- University of California Berkeley -->
+						<div class="col-md-6 col-sm-8 resume-item wow bounceInUp" style="visibility: hidden; animation-name: none;">
+							<h4>Computer Science and Pure Mathematics</h4>
+							<p>Double major in Computer Science and Pure Mathematics. Classes taken: Structure and Interpretation of Computer Programs, Data Structures, Efficient Algorithms and Intractable Problems, Numerical Analysis, Real Analysis, Complex Analysis, Partial Differential Equations, Abstract Algebra, Linear Algebra, and Algebraic Geometry.</p>
+							<hr class="hidden-xs">
+						</div>
+						<div class="col-md-3 col-sm-4 resume-place wow bounceInRight" style="visibility: hidden; animation-name: none;">
+							<h4><i class="fa fa-suitcase"></i> UC Berkeley</h4>
+							<i class="fa fa-calendar"></i> August 2014 - May 2018
+							<hr class="visible-xs">
+						</div>
+					</div>
+
+					<!-- Experience -->
+					<div class="row resume-items">
+						<div class="col-md-3 wow bounceInLeft" style="visibility: hidden; animation-name: none;">
+							<h3>Experience</h3>
+						</div>
+
+						<!-- MDP -->
+						<div class="col-md-6 col-sm-8 resume-item wow bounceInUp" style="visibility: hidden; animation-name: none;">
+							<h4>Webmaster</h4>
+							<p>Maintain the website for the Master's in Developmental Practice at UC Berkeley.<a href="https://mdp.berkeley.edu/" target="_blank" class="btn btn-default btn-custom-1"> Linked here. </a></p>
+							<hr class="hidden-xs">
+						</div>
+						<div class="col-md-3 col-sm-4 resume-place wow bounceInRight" style="visibility: hidden; animation-name: none;">
+							<h4><i class="fa fa-suitcase"></i> UC Berkeley</h4>
+							<i class="fa fa-calendar"></i> January 2017 - PRESENT
+							<hr class="visible-xs">
+						</div>
+
+						<!-- SLAC -->
+						<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp" style="visibility: hidden; animation-name: none;">
+							<h4>SULI Intern</h4>
+							<p>Machine learning via artificial neural network using Keras and Theano at the Linac coherent light source. Earned the Ernest Coleman Award for ”exemplary scholarship and citizenship.”</p>
+							<hr class="hidden-xs">
+						</div>
+						<div class="col-md-3 col-sm-4 resume-place wow bounceInRight" style="visibility: hidden; animation-name: none;">
+							<h4><i class="fa fa-suitcase"></i> SLAC National Accelerator Laboratory</h4>
+							<i class="fa fa-calendar"></i> June 2016 - August 2016
+							<hr class="visible-xs">
+						</div>
+
+						<!-- Math Research -->
+						<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp" style="visibility: hidden; animation-name: none;">
+							<h4>Mathematical  Research</h4>
+							<p>Researched about Hausdorff Gaps, forcing, and Universal Algebra with Noah Schweber.</p>
+							<hr class="hidden-xs">
+						</div>
+						<div class="col-md-3 col-sm-4 resume-place wow bounceInRight" style="visibility: hidden; animation-name: none;">
+							<h4><i class="fa fa-suitcase"></i> UC Berkeley</h4>
+							<i class="fa fa-calendar"></i> January 2016 - May 2016
+							<hr class="visible-xs">
+						</div>
+
+						<!-- SLC -->
+						<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp" style="visibility: hidden; animation-name: none;">
+							<h4>Linear Algebra Study Group Leader</h4>
+							<p>Teach the Linear Algebra and Differential Equations study group section to undergraduates. Tutor Algebra, Single Variable and Multivariate Calculus, Linear Algebra, Differential Equations, and Discrete Mathematics.</p>
+							<hr class="hidden-xs">
+						</div>
+						<div class="col-md-3 col-sm-4 resume-place wow bounceInRight" style="visibility: hidden; animation-name: none;">
+							<h4><i class="fa fa-suitcase"></i> Student Learning Center</h4>
+							<i class="fa fa-calendar"></i> June 2015 - December 2016
+							<hr class="visible-xs">
+						</div>
+
+						<!-- JBEI -->
+						<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp" style="visibility: hidden; animation-name: none;">
+							<h4>Computational Biology</h4>
+							<p>Characterized Rhodococcus erythropolis for its type I polyketide syntheses by establishing RNAseq. Used CRISPR, Cas9 to edit E. coli and organized bacterium data using Java, Python 2.0, MySQL, and LaTex</p>
+							<hr class="hidden-xs">
+						</div>
+						<div class="col-md-3 col-sm-4 resume-place wow bounceInRight" style="visibility: hidden; animation-name: none;">
+							<h4><i class="fa fa-suitcase"></i> Joint Bio-Energy Institute</h4>
+							<i class="fa fa-calendar"></i> June 2015 - December 2016
+							<hr class="visible-xs">
+						</div>
+
+						<!-- JBEI -->
+						<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp" style="visibility: hidden; animation-name: none;">
+							<h4>Bio-Sciences Researcher</h4>
+							<p>Preformed data analysis with the Computer Science Department through the Post-Katrina Sci-Net Grant using Prism 6.0. Used the glutathione pathway to study anti-angiogenic and sulfide donating properties of thiosulfate. Cultivated HUVECs to calculate sulfide concentrations using MBB, HPLC method. Performed BrDU/ glutathione assays. Awarded Iota Sigma Pi Outstanding Woman in Chemistry Award, and awarded Intel Science Talent Search Semi-Finalist</p>
+							<hr class="hidden-xs">
+						</div>
+						<div class="col-md-3 col-sm-4 resume-place wow bounceInRight" style="visibility: hidden; animation-name: none;">
+							<h4><i class="fa fa-suitcase"></i> Louisiana State University Health Sciences Center</h4>
+							<i class="fa fa-calendar"></i> October 2011 - June 2014
+							<hr class="visible-xs">
+						</div>
+					</div>
+
+					<!-- Organizations -->
+					<div class="row resume-items">
+						<div class="col-md-3 wow bounceInLeft" style="visibility: hidden; animation-name: none;">
+							<h3>Leadership</h3>
+						</div>
+
+						<!-- PEACE Tutoring -->
+						<div class="col-md-6 col-sm-8 resume-item wow bounceInUp" style="visibility: hidden; animation-name: none;">
+							<h4>Executive</h4>
+							<p>Fighting Berkeley's cut throat stigma by providing free one-on-one tutoring, advising, and resources for students who cannot attend normal tutoring hours and/or cannot afford to have paid tutoring.</p>
+							<hr class="hidden-xs">
+						</div>
+						<div class="col-md-3 col-sm-4 resume-place wow bounceInRight" style="visibility: hidden; animation-name: none;">
+							<h4><i class="fa fa-suitcase"></i> PEACE Tutoring</h4>
+							<i class="fa fa-calendar"></i> May 2016 - November 2016
+							<hr class="visible-xs">
+						</div>
+
+						<!-- MUSA -->
+						<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp" style="visibility: hidden; animation-name: none;">
+							<h4>Outreach Chair</h4>
+							<p>Bridge the gap between college mathematics and mathematics education in elementary, middle, and high schools.</p>
+							<hr class="hidden-xs">
+						</div>
+						<div class="col-md-3 col-sm-4 resume-place wow bounceInRight" style="visibility: hidden; animation-name: none;">
+							<h4><i class="fa fa-suitcase"></i> Mathematics Undergraduate Student Association </h4>
+							<i class="fa fa-calendar"></i> August 2016 - May 2017
+							<hr class="visible-xs">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-2 col-md-offset-5 wow bounceInUp" style="visibility: hidden; animation-name: none;">
+							<!-- Add Resume (PDF) Link below -->
+							<a href="http://aleskova.me/resume.pdf" target="_blank" class="btn btn-default btn-custom-2"><i class="fa fa-cloud-download icon-before"></i> Download Resume</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Section Start: Contact -->
+			<section id="contact" class="section">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-12 headline wow bounceInLeft" style="visibility: hidden; animation-name: none;">
+							<h2>Contact Me</h2>
+							<p>Feel free to send me an email! I'm always open to helping or learning something new!</p>
+						</div>
+
+						<!-- Contact Form -->
+						<div class="col-md-6 col-md-offset-3 wow bounceInRight" style="visibility: hidden; animation-name: none;">
+							<form id="contact-form" role="form">
+								<!-- Create a simple contact form on typeform.com and add link below-->
+								<a href="mailto:aleskova@berkeley.edu" class="btn btn-custom-1 full-width">
+									<i class="fa fa-bullhorn icon-before"></i> Contact Anna
+								</a>
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+
+			<!-- Section Start: Footer -->
+			<section id="footer" class="section footer-section">
+				<div class="container">
+
+					<!-- Social Media Outlets - Update with your username -->
+					<div class="footer-socmed">
+					    <a href="https://facebook.com/leskovaa" target="_blank" class="fa fa-facebook"><span class="label"></span></a>
+					    <a href="https://www.linkedin.com/in/aleskova" target="_blank" class="fa fa-linkedin"><span class="label"></span></a>
+					    <a href="https://github.com/aleskova" target="_blank" class="fa fa-github"><span class="label"></span></a>
+					    <a href="https://www.instagram.com/leskova.anna/" target="_blank" class="fa fa-instsgram"><span class="label"></span></a>
+					</div>
+
+					<!-- Copyright Information -->
+					<div class="footer-copyright">
+						<!-- <p class="copy">
+							<div align=center><p class="copy">Number of Visitors:      <a href='http://www.counter12.com'><img src='http://www.counter12.com/img-28CWd2B2-57.gif' border='0' alt='free web counter'></a><script type='text/javascript' src='http://www.counter12.com/ad.js?id=28CWd2B2'></p></script></div>
+						</p> -->
+							Copyright © 2017 Anna Leskova, All Rights Reserved.
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<!-- Javascript files - Importing here to speed up loading of other elements-->
+		<script src="./js/jquery-1.11.0.min.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+		<script src="./js/jquery.backstretch.min.js"></script>
+		<script src="./js/owl.carousel.min.js"></script>
+		<script src="./js/jquery.magnific-popup.min.js"></script>
+		<script src="./js/jquery.simple-text-rotator.min.js"></script>
+		<script src="./js/jquery.waypoints.js"></script>
+		<script src="./js/jquery.countTo.js"></script>
+		<script src="./js/wow.min.js"></script>
+		<script src="./js/modernizr.custom.js"></script>
+		<script src="./js/grid.js"></script>
+		<script src="./js/smoothscroll.js"></script>
+		<script src="./js/custom.js"></script>
 
 	</body>
 </html>
