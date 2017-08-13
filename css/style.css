@@ -1,9 +1,43 @@
+/* navigation bar */
+#navigationBar {
+    width: 1000px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color: lightgrey;
+}
+
+li {
+    width: 100px;
+    float: left;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+ul {
+    background-color: #333;
+}
+
+li a:hover {
+    color: white;
+    background-color: #111;
+}
+
+/* other stuff */
+
 body {
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 #title {
-    padding-top: 10px;
+    padding-top: 100px;
     padding-bottom: 20px;
     width: 50%;
     background-color: lightgrey;
